@@ -1,0 +1,11 @@
+to run specific file
+--------------------------
+pytest -v -s directoryname\modulename.py
+
+to run all the modules in a directory/package
+---------------------------------------------
+pytest -v -s directoryname\directory
+
+to run specific methods from a module
+---------------------------------------
+pytest -v -s directoryname\module.py::classname::methodname
